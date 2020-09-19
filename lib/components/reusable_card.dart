@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-const cardMargin = 15.0;
+const cardMargin = 10.0;
 const cardBorderRadius = 10.0;
 
 class ReusableCard extends StatelessWidget {

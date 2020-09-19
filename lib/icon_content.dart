@@ -1,11 +1,8 @@
 import 'package:flutter/material.dart';
+import 'constants.dart';
 
 const iconSize = 80.0;
 const gapSize = 15.0;
-const labelTextStyle = TextStyle(
-  fontSize: 18,
-  color: Color(0xFF9A9BA4),
-);
 
 class IconCard extends StatelessWidget {
   const IconCard({this.icon, this.label});
@@ -27,7 +24,7 @@ class IconCard extends StatelessWidget {
         ),
         Text(
           label,
-          style: labelTextStyle,
+          style: kLabelTextStyle,
         ),
       ],
     );
